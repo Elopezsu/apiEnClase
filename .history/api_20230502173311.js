@@ -9,9 +9,7 @@ const promesaACumplir = new Promise((resolve, reject) => {
     setTimeout(() => {
       if (usuariosPrueba > 3) {
         resolve(
-            console.log("Esta es la lista de usuarios", usuarios)
-            );
-    
+            console.log("Esta es la list"usuarios[1]);
       } else {
         reject("Error al Buscar Usuarios");
       }

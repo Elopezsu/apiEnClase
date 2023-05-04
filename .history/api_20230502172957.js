@@ -8,10 +8,7 @@ const promesaACumplir = new Promise((resolve, reject) => {
     //const usuariosBuscados = Math.floor(Math.random() *10);
     setTimeout(() => {
       if (usuariosPrueba > 3) {
-        resolve(
-            console.log("Esta es la lista de usuarios", usuarios)
-            );
-    
+        resolve("Esta es la lista de elementos", element.usuariousuarios[1]);
       } else {
         reject("Error al Buscar Usuarios");
       }

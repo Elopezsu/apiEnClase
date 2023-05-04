@@ -2,16 +2,13 @@ import usuarios from './usuarios.json' assert { type: "json" };
 
 //console.log(usuarios);
 
-const usuariosPrueba = 6;
+const usuariosPrueba = 2;
 
 const promesaACumplir = new Promise((resolve, reject) => {
     //const usuariosBuscados = Math.floor(Math.random() *10);
     setTimeout(() => {
-      if (usuariosPrueba > 3) {
-        resolve(
-            console.log("Esta es la lista de usuarios", usuarios)
-            );
-    
+      if (usu % 2 == 0) {
+        resolve("La promesa se cumplió:", usuarios);
       } else {
         reject("Error al Buscar Usuarios");
       }
